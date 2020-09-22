@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div
+    input#userInput(type="number")
+
+  div
+  br
+  br
+  div
+    button#getOneMileAction.btn.btn-warning Get Feet on one mile
+    button#feetFromMilesAction.btn.btn-success Calculate Feet from Miles
+    button#Circumference.btn.btn-info Calculate circumference
+    pre#displayArea
+  div
+
+
